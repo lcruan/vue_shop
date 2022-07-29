@@ -20,7 +20,8 @@ import { Button,
          TableColumn,
          Switch,
          Tooltip,
-         Pagination 
+         Pagination,
+         Dialog 
         } from 'element-ui'
 
 Vue.use(Button)
@@ -44,4 +45,5 @@ Vue.use(TableColumn)
 Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
+Vue.use(Dialog)
 Vue.prototype.$message = Message
