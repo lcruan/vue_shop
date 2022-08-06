@@ -33,3 +33,7 @@ html, body, #app {
 .ql-editor {
     min-height: 300px;
 }
+/* 解决级联选择器过高问题 */
+.el-cascader-panel {
+    height: 300px;
+}
